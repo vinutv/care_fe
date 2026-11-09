@@ -1,0 +1,13 @@
+`order-strong-border` is added to the base `Empty` class, but `Empty` itself never sets `border-width`; it only sets `border-dashed`. The border is supplied by consumers — `EmptyState` passes `className="border p-6"`. So for anyone composing `Empty` directly without a `border` utility, this new color is inert; for `EmptyState` it works only because of that consumer class. Setting `border` here (or dropping the color) would make the intent self-contained.
+
+Also worth confirming visually: `Empty` now sets `p-4` while `EmptyState` still passes `p-6`, which wins via `cn()`. The `p-12` → `p-4` change therefore only affects direct `Empty` consumers, not `EmptyState` call sites — so if the goal was tighter padding in the screenshots, note that `EmptyState` is unaffected and the `p-6` override may be the one that actually needs changing.
+fix
+
+---
+
+the icon chip pairs `bg-strong-background` with `text-placeholder-foreground`. In light mode that is `neutral-200` on `neutral-500`, which is fine. In dark mode (`src/style/careui.css`) those resolve to `--strong-background: neutral-700` and `--placeholder-foreground: neutral-600` — a 700/600 pair, i.e. adjacent neutral steps. The pin glyph is very close to invisible against its own chip.
+
+Note the previous value `text-foreground` was explicitly theme-aware (`neutral-950` light / `neutral-50` dark), so this swap is what introduces the regression. `text-soft-foreground` (`neutral-600` light / `neutral-300` dark) or `text-muted-foreground` keeps the muted look in light mode without collapsing in dark. `.github/instructions/careui.instructions.md` requires WCAG AA contrast.
+
+Separately: `shadow-inner` is in Tailwind v4's `@theme default inline reference` block marked `/* Deprecated */` (`tailwindcss[@4](https://github.com/apps/4).1.3`, `theme.css:455-461`). It still resolves today, but `inset-shadow-sm` is the v4 spelling and is the same `inset 0 2px 4px rgb(0 0 0 / 0.05)` value.
+fix
