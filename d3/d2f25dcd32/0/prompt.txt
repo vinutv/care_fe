@@ -11,3 +11,8 @@ Note the previous value `text-foreground` was explicitly theme-aware (`neutral-9
 
 Separately: `shadow-inner` is in Tailwind v4's `@theme default inline reference` block marked `/* Deprecated */` (`tailwindcss[@4](https://github.com/apps/4).1.3`, `theme.css:455-461`). It still resolves today, but `inset-shadow-sm` is the v4 spelling and is the same `inset 0 2px 4px rgb(0 0 0 / 0.05)` value.
 fix
+
+---
+
+commit changes, dont commit .devcontainer/devcontainer-lock.json
+        src/supportedBrowsers.ts
