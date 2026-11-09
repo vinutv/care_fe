@@ -1,0 +1,10 @@
+.devcontainer/devcontainer-lock.json
+this file is gitignored (.gitignore:35, src/supportedBrowsers.ts) and should not be committed. It is a build artifact, and it is also dead code on this base: 3.1/base has no src/supportedBrowsers.ts, and BrowserWarning.tsx no longer imports it — it now feature-detects via CSS.supports for cascade layers / @property / oklch() / color-mix() instead of UA sniffing.
+
+So this adds a committed, permanently-stale UA regex that nothing reads. Worse, because it is gitignored, nobody will notice it drifting. Please drop it from the PR.
+
+It also looks unrelated to the stated purpose (empty state for pinned links) — same for .devcontainer/devcontainer-lock.json. Both read like local environment artifacts picked up by an over-broad git add.
+
+src/supportedBrowsers.ts
+
+you have commited thise files
