@@ -1,0 +1,27 @@
+{
+  "cli_version": "0.9.0",
+  "checkpoint_id": "ab06f4b89d83",
+  "strategy": "manual-commit",
+  "branch": "add-empty-state-to-pinned-links",
+  "checkpoints_count": 1,
+  "files_touched": [
+    "src/components/ui/empty-state.tsx",
+    "src/components/ui/empty.tsx"
+  ],
+  "sessions": [
+    {
+      "metadata": "/ab/06f4b89d83/0/metadata.json",
+      "transcript": "/ab/06f4b89d83/0/full.jsonl",
+      "compact_transcript": "/ab/06f4b89d83/0/transcript.jsonl",
+      "content_hash": "/ab/06f4b89d83/0/content_hash.txt",
+      "prompt": "/ab/06f4b89d83/0/prompt.txt"
+    }
+  ],
+  "token_usage": {
+    "input_tokens": 176859,
+    "cache_creation_tokens": 59207,
+    "cache_read_tokens": 117643,
+    "output_tokens": 602,
+    "api_call_count": 3
+  }
+}

@@ -1,0 +1,5 @@
+how can i remove the devcontainer-lock.json  src/supportedBrowsers.ts files originaly from the commits.
+
+---
+
+do it
