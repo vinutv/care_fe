@@ -1,0 +1,27 @@
+{
+  "cli_version": "0.9.0",
+  "checkpoint_id": "0225f637c56d",
+  "strategy": "manual-commit",
+  "branch": "3.1/base",
+  "checkpoints_count": 4,
+  "files_touched": [
+    "src/pages/Facility/billing/paymentReconciliation/PaymentReconciliationList.tsx",
+    "src/pages/Patient/PatientHome.tsx"
+  ],
+  "sessions": [
+    {
+      "metadata": "/02/25f637c56d/0/metadata.json",
+      "transcript": "/02/25f637c56d/0/full.jsonl",
+      "compact_transcript": "/02/25f637c56d/0/transcript.jsonl",
+      "content_hash": "/02/25f637c56d/0/content_hash.txt",
+      "prompt": "/02/25f637c56d/0/prompt.txt"
+    }
+  ],
+  "token_usage": {
+    "input_tokens": 0,
+    "cache_creation_tokens": 0,
+    "cache_read_tokens": 0,
+    "output_tokens": 0,
+    "api_call_count": 0
+  }
+}
