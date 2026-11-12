@@ -1,0 +1,34 @@
+{
+  "cli_version": "0.9.0",
+  "checkpoint_id": "8f0c223949df",
+  "strategy": "manual-commit",
+  "branch": "restyle-organization-pages",
+  "checkpoints_count": 1,
+  "files_touched": [
+    "public/locale/en.json",
+    "src/pages/Organization/OrganizationFacilities.tsx",
+    "src/pages/Organization/OrganizationPatients.tsx",
+    "src/pages/Organization/OrganizationUsers.tsx",
+    "src/pages/Organization/OrganizationView.tsx",
+    "src/pages/Organization/components/OrganizationFacilityCard.tsx",
+    "src/pages/Organization/components/OrganizationFacilityCardSkeleton.tsx",
+    "src/pages/Organization/components/OrganizationLayout.tsx",
+    "src/pages/Organization/components/OrganizationLayoutSkeleton.tsx"
+  ],
+  "sessions": [
+    {
+      "metadata": "/8f/0c223949df/0/metadata.json",
+      "transcript": "/8f/0c223949df/0/full.jsonl",
+      "compact_transcript": "/8f/0c223949df/0/transcript.jsonl",
+      "content_hash": "/8f/0c223949df/0/content_hash.txt",
+      "prompt": "/8f/0c223949df/0/prompt.txt"
+    }
+  ],
+  "token_usage": {
+    "input_tokens": 0,
+    "cache_creation_tokens": 0,
+    "cache_read_tokens": 0,
+    "output_tokens": 0,
+    "api_call_count": 0
+  }
+}

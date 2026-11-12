@@ -1,0 +1,1 @@
+update the table and other tab contents, theuse the frame, and the search should be inside the frame, update accordingly, use th Frame compoent form the CareUI

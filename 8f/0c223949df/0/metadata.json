@@ -1,0 +1,74 @@
+{
+  "cli_version": "0.9.0",
+  "checkpoint_id": "8f0c223949df",
+  "session_id": "1484dd9d-001a-4d53-b89f-47cf06f53487",
+  "strategy": "manual-commit",
+  "created_at": "2026-11-12T22:09:53.294352Z",
+  "branch": "restyle-organization-pages",
+  "checkpoints_count": 1,
+  "save_step_count": 1,
+  "files_touched": [
+    "public/locale/en.json",
+    "src/pages/Organization/OrganizationFacilities.tsx",
+    "src/pages/Organization/OrganizationPatients.tsx",
+    "src/pages/Organization/OrganizationUsers.tsx",
+    "src/pages/Organization/OrganizationView.tsx",
+    "src/pages/Organization/components/OrganizationFacilityCard.tsx",
+    "src/pages/Organization/components/OrganizationFacilityCardSkeleton.tsx",
+    "src/pages/Organization/components/OrganizationLayout.tsx",
+    "src/pages/Organization/components/OrganizationLayoutSkeleton.tsx"
+  ],
+  "agent": "Copilot CLI",
+  "model": "",
+  "turn_id": "746954ef63d6",
+  "compact_transcript_start": 0,
+  "token_usage": {
+    "input_tokens": 0,
+    "cache_creation_tokens": 0,
+    "cache_read_tokens": 0,
+    "output_tokens": 0,
+    "api_call_count": 0
+  },
+  "session_metrics": {
+    "turn_count": 1
+  },
+  "initial_attribution": {
+    "calculated_at": "2026-11-12T22:09:53.286824Z",
+    "agent_lines": 193,
+    "agent_removed": 257,
+    "human_added": 197,
+    "human_modified": 109,
+    "human_removed": 0,
+    "total_committed": 492,
+    "total_lines_changed": 1021,
+    "agent_percentage": 44.07443682664055,
+    "metric_version": 2
+  },
+  "prompt_attributions": [
+    {
+      "checkpoint_number": 1,
+      "user_lines_added": 211,
+      "user_lines_removed": 96,
+      "agent_lines_added": 0,
+      "agent_lines_removed": 0,
+      "user_added_per_file": {
+        ".devcontainer/devcontainer-lock.json": 9,
+        "public/locale/en.json": 4,
+        "src/pages/Organization/OrganizationView.tsx": 100,
+        "src/pages/Organization/components/OrganizationFacilityCard.tsx": 27,
+        "src/pages/Organization/components/OrganizationFacilityCardSkeleton.tsx": 2,
+        "src/pages/Organization/components/OrganizationLayout.tsx": 65,
+        "src/pages/Organization/components/OrganizationLayoutSkeleton.tsx": 3,
+        "src/supportedBrowsers.ts": 1
+      },
+      "user_removed_per_file": {
+        "public/locale/en.json": 1,
+        "src/pages/Organization/OrganizationView.tsx": 55,
+        "src/pages/Organization/components/OrganizationFacilityCard.tsx": 6,
+        "src/pages/Organization/components/OrganizationFacilityCardSkeleton.tsx": 2,
+        "src/pages/Organization/components/OrganizationLayout.tsx": 31,
+        "src/pages/Organization/components/OrganizationLayoutSkeleton.tsx": 1
+      }
+    }
+  ]
+}
