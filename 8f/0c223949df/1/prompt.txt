@@ -1,0 +1,49 @@
+why th referral availability tab has 2 diffrent frames? why dont you club it, check before dong?
+
+---
+
+need d the heading like organizations users patiest above the frame, so, the buttons can be place on the right side . istead of placing all inside the Frame
+
+---
+
+can we change the title to the breadcrumbs, like, kerala/Ernakulam, like that, if another organisation selects.
+
+---
+
+look at this structure, can be adap the this layout , as title on top, and the breadcrumbs bottom.
+
+---
+
+for the first level, do we need the breadcrumbs appears, ?
+
+---
+
+it doesntneed to be repat on the header
+
+---
+
+needs underline for the link in breadcrumbs
+
+---
+
+some pages missing the sub text, like Organization, users, facilities, service accounts, also need consistant height for these heaing, with or without right side buttons
+
+---
+
+need to fix the header spacing, redcue it
+
+---
+
+i meant the padding-x
+
+---
+
+### Referral availability, ### Incoming referrals titles should match with other tab titles, every page tab header should b esimilar in spacing, and size and style
+
+---
+
+realign the frames header like, the filter can be on the right side.
+
+---
+
+in the facility card, sometime, there will be no settings button, so in that time, the view facility button should grow full witdth fix, it
